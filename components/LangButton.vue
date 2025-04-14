@@ -23,6 +23,7 @@ const toggleOpen = () => {
           ? 'text-primary bg-primary/10'
           : 'text-white hover:text-primary hover:bg-primary/5',
       ]"
+      aria-label="Change Language"
     >
       <Icon name="lucide:globe" class="size-5" />
     </button>

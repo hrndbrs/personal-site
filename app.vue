@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { t } = useI18n();
+const { t, locale } = useI18n();
 
 const title = `HRNDBRS | ${t("meta.title")}`;
 const description = t("meta.description");
@@ -27,6 +27,10 @@ useHead({
     { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
     { rel: "canonical", href: url },
   ],
+  htmlAttrs: {
+    lang: locale.value,
+    dir: "ltr",
+  },
 });
 </script>
 
