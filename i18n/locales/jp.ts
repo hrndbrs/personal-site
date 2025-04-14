@@ -1,6 +1,6 @@
 export default defineI18nLocale(async () => ({
   meta: {
-    title: "バグは機能になる",
+    title: "バグは機能に",
     description:
       "直感的でスケーラブルなWebアプリケーションを、クリーンで保守性の高いコードで構築するフルスタック開発者です。",
     keywords:
