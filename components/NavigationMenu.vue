@@ -66,7 +66,7 @@ const scrollToSection = (href: string) => {
     </NuxtLink>
 
     <ul
-      class="flex flex-col items-center space-y-8 flex-1 justify-center overflow-y-scroll"
+      class="flex flex-col items-center space-y-8 flex-1 justify-center overflow-y-auto"
     >
       <li v-for="item in navItems" :key="item.name">
         <UTooltip

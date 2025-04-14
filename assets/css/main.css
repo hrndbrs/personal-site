@@ -92,13 +92,13 @@
   }
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar - WebKit (Chrome, Safari, Edge) */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--muted);
+  @apply bg-transparent;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -108,6 +108,22 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--accent);
+}
+
+/* Custom scrollbar - Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) transparent;
+}
+
+/* Custom scrollbar - IE/Edge Legacy */
+* {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
 }
 
 @utility container {
