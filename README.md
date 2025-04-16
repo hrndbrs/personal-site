@@ -1,75 +1,135 @@
-# Nuxt Minimal Starter
+# Portfolio Website
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern portfolio website built with Nuxt 3, featuring a beautiful and responsive design with internationalization support.
 
-## Setup
+## 🚀 Features
 
-Make sure to install dependencies:
+- ⚡️ Built with Nuxt 3
+- 🎨 Modern UI with Tailwind CSS
+- 🌐 Internationalization (i18n) support
+- 📱 Fully responsive design
+- 🎯 SEO optimized
+- 🖼️ Image optimization with @nuxt/image
+- 🎨 UI components with @nuxt/ui
+- 🔍 ESLint for code quality
+- 📝 TypeScript support
+
+## 🛠️ Tech Stack
+
+- [Nuxt 3](https://nuxt.com/) - The Vue.js Framework
+- [Vue 3](https://vuejs.org/) - The Progressive JavaScript Framework
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org/) - JavaScript with syntax for types
+- [@nuxt/ui](https://ui.nuxt.com/) - UI components for Nuxt
+- [@nuxt/image](https://image.nuxt.com/) - Image optimization
+- [@nuxtjs/i18n](https://i18n.nuxtjs.org/) - Internationalization
+
+## 📦 Prerequisites
+
+- Node.js (v18 or later)
+- npm, pnpm, yarn, or bun
+
+## 🚀 Getting Started
+
+1. Clone the repository:
 
 ```bash
-# npm
+git clone https://github.com/hrndbrs/personal-site
+cd personal-site
+```
+
+2. Install dependencies:
+
+```bash
+# Using npm
 npm install
 
-# pnpm
+# Using pnpm
 pnpm install
 
-# yarn
+# Using yarn
 yarn install
 
-# bun
+# Using bun
 bun install
 ```
 
-## Development Server
+3. Create a `.env` file in the root directory and add your environment variables:
 
-Start the development server on `http://localhost:3000`:
+```env
+URL= # Deployed url
+```
+
+4. Start the development server:
 
 ```bash
-# npm
+# Using npm
 npm run dev
 
-# pnpm
+# Using pnpm
 pnpm dev
 
-# yarn
+# Using yarn
 yarn dev
 
-# bun
+# Using bun
 bun run dev
 ```
 
-## Production
+The application will be available at `http://localhost:3000`.
 
-Build the application for production:
+## 🏗️ Building for Production
+
+To build the application for production:
 
 ```bash
-# npm
+# Using npm
 npm run build
 
-# pnpm
+# Using pnpm
 pnpm build
 
-# yarn
+# Using yarn
 yarn build
 
-# bun
+# Using bun
 bun run build
 ```
 
-Locally preview production build:
+To preview the production build locally:
 
 ```bash
-# npm
+# Using npm
 npm run preview
 
-# pnpm
+# Using pnpm
 pnpm preview
 
-# yarn
+# Using yarn
 yarn preview
 
-# bun
+# Using bun
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 📁 Project Structure
+
+```
+├── assets/         # Static assets
+├── components/     # Vue components
+├── composables/    # Vue composables
+├── i18n/          # Internationalization files
+├── public/        # Public static files
+├── server/        # Server-side code
+├── utils/         # Utility functions
+├── app.vue        # Root component
+└── nuxt.config.ts # Nuxt configuration
+```
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
