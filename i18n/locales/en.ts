@@ -16,7 +16,7 @@ export default defineI18nLocale(async () => ({
       "exhausted",
     ],
     description:
-      "Developer creating reliable and intuitive digital experiences across the stack",
+      "Creating reliable and intuitive digital experiences across the stack",
     button: "Explore My Work",
   },
   About: {
